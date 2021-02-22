@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quick Response Code Generator 2021</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/python.png" type="image/gif" sizes="16x16">
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+    <!--content-->
+    <div class="container p-4 my-3" id="content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="img-wrap">
+                    <img class="img-fluid mx-auto" src="images/qr-icon.png" alt="" id="show-img">
+                </div>
+            </div>
+            <div class="col-md-6 text-center my-4">
+                <div class="wrap py-4 px-4 " id="command">
+                    <h3 class="text-dark">QR-Code Generator</h3>
+                    <form name="detail" action="#" id="myForm">
+                        <div class="input-group my-4">
+                            <div class="input-group-prepend text-small">
+                              <span class="input-group-text">Enter Data</span>
+                            </div>
+                            <input type="text" class="form-control" name="value" required>
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1">Enter Filename</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" name="name" required>
+                        </div>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect04" name="extension">
+                              <option selected value="0">.jpg</option>
+                              <option value="1">.jpeg</option>
+                              <option value="2">.png</option>
+                              <option value="3">.svg</option>
+                              <option value="4">.bmp</option>
+                            </select>
+                            <div class="input-group-append">
+                              <input type="submit" value="Generate" class="btn btn-dark" 
+                              onclick="generateQRCode()"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-light py-1 footer">
+        <div class="row ">
+            <div class="col-12 small text-center">
+               &copy; Sandeep Shaw 2021 | All right reserved | Desktop Application
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var form = document.getElementById("myForm");
+        function handleForm(event) { event.preventDefault(); } 
+        form.addEventListener('submit', handleForm);
+    </script>
+</body>
+</html>

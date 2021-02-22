@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#98d7a5 !important;
+}
+
+#content{
+    max-width: 800px;
+    border-radius: 16px;
+    border-radius: 21px;
+    background: #98d7a5;
+    box-shadow:  11px 11px 20px #84bb90, -11px -11px 20px #acf3ba;
+}
+
+#command{
+    border-radius: 21px;
+    background: #98d7a5;
+    box-shadow: inset 10px 10px 20px #8ac496, inset -10px -10px 20px #a6eab4;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background-color: #448351;
+}
