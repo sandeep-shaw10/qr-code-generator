@@ -1,6 +1,4 @@
 # QR Code Generator
-
-[comment]: <> ([![Generic badge](https://img.shields.io/badge/PREVIEW-1abc9c.svg)](https://sandeep-shaw10.github.io/GraphJS/)) 
 [![Generic badge](https://img.shields.io/badge/VERSION-v1.0-ffff33.svg)](https://github.com/sandeep-shaw10/qr-code-generator)
 [![Generic badge](https://img.shields.io/badge/YEAR-2021-ff3333.svg)](https://github.com/sandeep-shaw10/qr-code-generator)
 [![Generic badge](https://img.shields.io/badge/LICENSE-MIT-9933ff.svg)](https://github.com/sandeep-shaw10/qr-code-generator/blob/main/LICENSE)
